@@ -13,6 +13,8 @@ npm run dev
 
 Open **http://127.0.0.1:3000**. Press Ctrl+C in that terminal to stop it. The development script uses Webpack because Turbopack's CSS worker failed in the tested Windows environment. The app binds to loopback only.
 
+Development uses an isolated `.next-dev/` cache; production builds use `.next/` and the static export is written to `out/`. Next.js regenerates its ignored `next-env.d.ts` for the active mode.
+
 If port 3000 is occupied by the preview already started for this task, use that preview, or identify and stop that specific server before restarting. Do not terminate unrelated Node processes.
 
 ## Reinstall from the lockfile

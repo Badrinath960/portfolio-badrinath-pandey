@@ -16,6 +16,8 @@ Evidence is local in ignored `test-results/` and `.tools/` directories. Original
 
 The historical report below records the first local implementation, before the user's subsequent authorization to deploy.
 
+Deployment update: GitHub's Linux runner passed installation, lint, unit tests, static build and Pages deployment for commit `49655ee`. The public homepage returned HTTP 200. Four additional tests against the live Pages URL passed: filtering/history, responsive homepage/axe checks, ProVision links and responsive/print résumé, and injected-root-class hydration. The local dev preview was also checked directly: reduced motion and project filtering work without page errors. Network-response interception on Edge's development HMR connection is blocked by its local-network access checks; the injection regression is verified against static production instead.
+
 ## Result
 
 The local implementation builds successfully and the exercised launch checks pass. No public deployment was performed. Missing evidence-dependent assets and untested platforms are listed below rather than treated as verified.

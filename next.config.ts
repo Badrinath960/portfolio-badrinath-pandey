@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 const pages = process.env.GITHUB_PAGES === "true";
 const config: NextConfig = {
   poweredByHeader: false,
@@ -32,4 +33,8 @@ const config: NextConfig = {
         },
       }),
 };
-export default config;
+export default function configForPhase(phase: string): NextConfig {
+  return phase === PHASE_DEVELOPMENT_SERVER
+    ? { ...config, distDir: ".next-dev" }
+    : config;
+}

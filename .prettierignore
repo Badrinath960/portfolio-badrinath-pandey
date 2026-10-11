@@ -1,5 +1,8 @@
 node_modules
 .next
+.next-dev
+.next-pages
+out
 .tools
 docs/portfolio
 portfolio-context
