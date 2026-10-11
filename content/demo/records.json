@@ -1,0 +1,8 @@
+[
+{"id":"D01","region":"North","value":12},{"id":"D02","region":"South","value":9},{"id":"D03","region":"West","value":14},{"id":"D04","region":"North","value":8},
+{"id":"D05","region":"South","value":11},{"id":"D06","region":"West","value":7},{"id":"D07","region":"North","value":null},{"id":"D08","region":"South","value":10},
+{"id":"D09","region":"West","value":13},{"id":"D10","region":"North","value":15},{"id":"D11","region":"South","value":6},{"id":"D12","region":"West","value":12},
+{"id":"D12","region":"West","value":12},{"id":"D14","region":"North","value":9},{"id":"D15","region":"South","value":-3},{"id":"D16","region":"West","value":8},
+{"id":"D17","region":"North","value":11},{"id":"D18","region":"South","value":14},{"id":"D19","region":"West","value":10},{"id":"D20","region":"East","value":6},
+{"id":"D21","region":"North","value":13},{"id":"D22","region":"South","value":12},{"id":"D23","region":"West","value":9},{"id":"D24","region":"North","value":7}
+]

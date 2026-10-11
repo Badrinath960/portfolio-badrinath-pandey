@@ -1,0 +1,9 @@
+node_modules
+.next
+.tools
+docs/portfolio
+portfolio-context
+docs/qa
+test-results
+playwright-report
+pnpm-lock.yaml

@@ -1,0 +1,467 @@
+{
+  "identity": {
+    "name": "Badrinath Pandey",
+    "role": "Data Operations Analyst",
+    "employer": "NielsenIQ (NIQ)",
+    "location": {
+      "city": "Vadodara",
+      "region": "Gujarat",
+      "country": "India"
+    },
+    "email": "pandeybadrinath9@gmail.com",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/badrinath-pandey-91970b218/",
+      "github": "https://github.com/Badrinath960"
+    },
+    "sourceRefs": [
+      "S1:p1",
+      "S2:p1",
+      "S2:p2",
+      "S2:p4"
+    ]
+  },
+  "proposedCopy": {
+    "headline": "Turning complex data into clear decisions.",
+    "summary": "I work with data quality, reporting and automation at NielsenIQ, using Python, SQL and Microsoft Power Platform to make everyday workflows more reliable.",
+    "contact": "Let’s talk about data, automation and useful tools.",
+    "sourceRefs": [
+      "S1:p1"
+    ]
+  },
+  "careerInterests": {
+    "items": [
+      "Data Engineering",
+      "Analytics Engineering",
+      "AI-driven automation"
+    ],
+    "sourceRefs": [
+      "S1:p1"
+    ]
+  },
+  "experience": [
+    {
+      "id": "niq",
+      "sourceRefs": [
+        "S1:p1",
+        "S2:p2"
+      ],
+      "role": "Data Operations Analyst",
+      "employer": "NielsenIQ (NIQ)",
+      "start": "2025-08",
+      "end": null,
+      "current": true,
+      "highlights": [
+        "Process, validate and quality-check large datasets.",
+        "Built Monthly Award Distribution automation using employee performance KPIs.",
+        "Built task-allocation tools across projects, replacing manual allocation.",
+        "Built Python automation tools for internal team productivity.",
+        "Work with Power Automate, Power Apps, Excel automation and Power BI reporting.",
+        "Lead AI-driven automation initiatives, as stated in the resume."
+      ]
+    },
+    {
+      "id": "elsolve-internship",
+      "sourceRefs": [
+        "S1:p1",
+        "S2:p3"
+      ],
+      "role": "Software Developer Intern",
+      "employer": "ElsoIve IT Solutions",
+      "start": "2024-12",
+      "end": "2025-03",
+      "current": false,
+      "highlights": [
+        "Built a full-stack application with React.js, Django, Django REST Framework and JWT authentication.",
+        "Designed SQL database architecture and data validation.",
+        "Created automated reporting and deployed a production-ready application."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "provision",
+      "sourceRefs": [
+        "P1:readme",
+        "P1:frontend",
+        "P1:owner"
+      ],
+      "slug": "provision",
+      "title": "ProVision — FMCG Forecasting & Analytics",
+      "type": "application",
+      "category": "analytics",
+      "summary": "A full-stack application for importing CSV sales data, forecasting demand with XGBoost, exploring regional sales patterns, and exporting executive PDF reports.",
+      "tools": [
+        "React.js",
+        "FastAPI",
+        "PostgreSQL",
+        "XGBoost",
+        "Pandas",
+        "Recharts"
+      ],
+      "featuredRank": 1,
+      "publication": "summary-only",
+      "repoUrl": "https://github.com/Badrinath960/provision",
+      "demoUrl": "https://provision-two.vercel.app/",
+      "caseStudy": null,
+      "metrics": [],
+      "date": null
+    },
+    {
+      "id": "raktkadi",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "slug": "raktkadi",
+      "title": "Raktkadi — Blood Bank Management System",
+      "type": "application",
+      "category": "data-applications",
+      "summary": "A full-stack blood bank operations platform with role-based access, data validation and automated stock/activity reporting.",
+      "tools": [
+        "React.js",
+        "Django",
+        "Django REST Framework",
+        "JWT",
+        "SQL"
+      ],
+      "featuredRank": 2,
+      "publication": "summary-only",
+      "repoUrl": null,
+      "demoUrl": null,
+      "caseStudy": null,
+      "metrics": [],
+      "date": null
+    },
+    {
+      "id": "award-distribution",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "slug": "award-distribution-automation",
+      "title": "Monthly Award Distribution Automation",
+      "type": "internal-work-summary",
+      "category": "automation",
+      "summary": "An internal automation tool that selects award winners using employee performance KPIs.",
+      "tools": [],
+      "featuredRank": 3,
+      "publication": "summary-only",
+      "repoUrl": null,
+      "demoUrl": null,
+      "caseStudy": null,
+      "metrics": [],
+      "date": null
+    },
+    {
+      "id": "work-allotment",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "slug": "work-allotment-automation",
+      "title": "Work Allotment Automation",
+      "type": "internal-work-summary",
+      "category": "automation",
+      "summary": "Internal tools that assign tasks across projects, replacing manual allocation.",
+      "tools": [],
+      "featuredRank": 4,
+      "publication": "summary-only",
+      "repoUrl": null,
+      "demoUrl": null,
+      "caseStudy": null,
+      "metrics": [],
+      "date": null
+    }
+  ],
+  "education": [
+    {
+      "id": "mca",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "degree": "Master of Computer Application (MCA) with AI",
+      "institution": "Parul University",
+      "start": "2026-07",
+      "end": null,
+      "status": "Pursuing",
+      "grade": null
+    },
+    {
+      "id": "bca",
+      "sourceRefs": [
+        "S1:p1",
+        "S2:p3"
+      ],
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "The Maharaja Sayajirao University of Baroda",
+      "start": "2022-06",
+      "end": "2025-05",
+      "status": "Completed",
+      "grade": {
+        "value": 7.69,
+        "scale": 10,
+        "type": "CGPA"
+      }
+    },
+    {
+      "id": "hsc",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "degree": "Higher Secondary Certificate (H.S.C)",
+      "institution": "Gujarat Board",
+      "start": "2021",
+      "end": "2022",
+      "status": "Completed",
+      "grade": {
+        "value": 69.16,
+        "scale": 100,
+        "type": "percentage"
+      }
+    }
+  ],
+  "skillGroups": [
+    {
+      "id": "data-reporting",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "title": "Data & reporting",
+      "items": [
+        "Python",
+        "SQL",
+        "R",
+        "Power BI",
+        "Advanced Excel",
+        "Statistical Data Analysis",
+        "Data Validation",
+        "Data Quality",
+        "Reporting"
+      ],
+      "claimType": "resume-listed; individual work evidence varies"
+    },
+    {
+      "id": "automation",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "title": "Automation",
+      "items": [
+        "Power Automate",
+        "Power Apps",
+        "Excel Automation",
+        "Microsoft 365",
+        "Process Automation",
+        "Workflow Automation",
+        "AI-Assisted Automation"
+      ],
+      "claimType": "resume-listed and current-role activities"
+    },
+    {
+      "id": "engineering",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "title": "Engineering foundations",
+      "items": [
+        "MySQL",
+        "DBMS",
+        "Database Design",
+        "Data Modeling",
+        "GitHub"
+      ],
+      "claimType": "resume-listed"
+    },
+    {
+      "id": "applications",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "title": "Application development",
+      "items": [
+        "JavaScript",
+        "React.js",
+        "Django",
+        "Django REST Framework",
+        "REST APIs",
+        "JWT",
+        "HTML",
+        "CSS"
+      ],
+      "claimType": "resume-listed; framework work evidenced"
+    },
+    {
+      "id": "course-exposure",
+      "sourceRefs": [
+        "S3:p2"
+      ],
+      "title": "Course exposure",
+      "items": [
+        "Pandas",
+        "NumPy",
+        "Apache Kafka",
+        "Hadoop"
+      ],
+      "claimType": "credential-associated; not production expertise"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Hindi",
+      "level": "Native",
+      "sourceRefs": [
+        "S1:p1"
+      ]
+    },
+    {
+      "name": "English",
+      "level": "Intermediate",
+      "sourceRefs": [
+        "S1:p1"
+      ]
+    },
+    {
+      "name": "Gujarati",
+      "level": "Beginner",
+      "sourceRefs": [
+        "S1:p1"
+      ]
+    }
+  ],
+  "credentials": [
+    {
+      "id": "sql-data-engineering",
+      "sourceRefs": [
+        "S1:p1",
+        "S2:p3",
+        "S3:p1"
+      ],
+      "title": "Complete Guide to SQL for Data Engineering: from Beginner to Advanced",
+      "issuer": "LinkedIn",
+      "issued": "2026-07",
+      "url": "https://www.linkedin.com/learning/certificates/63c104f63c2ed074fc836715f37243b623c5f62fd58810d683b438f833edab67/"
+    },
+    {
+      "id": "google-data-analytics",
+      "sourceRefs": [
+        "S1:p1",
+        "S2:p3",
+        "S3:p1"
+      ],
+      "title": "Google Data Analytics",
+      "issuer": "Google",
+      "issued": "2025-12",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/2CCQDGPF4L33"
+    },
+    {
+      "id": "r-programming",
+      "sourceRefs": [
+        "S1:p1",
+        "S3:p1"
+      ],
+      "title": "Data Analysis with R Programming",
+      "issuer": "Google",
+      "issued": "2025-09",
+      "url": null
+    },
+    {
+      "id": "generative-ai-essentials",
+      "sourceRefs": [
+        "S3:p1"
+      ],
+      "title": "Generative AI Essentials",
+      "issuer": "Coursera",
+      "issued": "2025-07",
+      "url": null
+    },
+    {
+      "id": "generative-ai-intro",
+      "sourceRefs": [
+        "S3:p1",
+        "S3:p2"
+      ],
+      "title": "Generative AI: Introduction and Applications",
+      "issuer": "IBM",
+      "issued": "2025-07",
+      "url": null
+    },
+    {
+      "id": "data-foundations",
+      "sourceRefs": [
+        "S3:p2"
+      ],
+      "title": "Foundations: Data, Data, Everywhere",
+      "issuer": "Google",
+      "issued": "2025-07",
+      "url": null
+    },
+    {
+      "id": "pandas-numpy",
+      "sourceRefs": [
+        "S3:p2"
+      ],
+      "title": "Python for Data Analysis: Pandas & NumPy",
+      "issuer": "Coursera",
+      "issued": "2025-07",
+      "url": null
+    },
+    {
+      "id": "big-data-foundation",
+      "sourceRefs": [
+        "S3:p2"
+      ],
+      "title": "Big Data Foundation",
+      "issuer": "Infosys Springboard",
+      "issued": "2025-07",
+      "url": null
+    },
+    {
+      "id": "business-intelligence",
+      "sourceRefs": [
+        "S3:p2"
+      ],
+      "title": "Introduction to Business Intelligence",
+      "issuer": "Infosys Springboard",
+      "issued": "2025-06",
+      "url": null
+    },
+    {
+      "id": "excel",
+      "sourceRefs": [
+        "S3:p3"
+      ],
+      "title": "Excel",
+      "issuer": "Infosys Springboard",
+      "issued": "2025-06",
+      "url": null
+    }
+  ],
+  "recognition": [
+    {
+      "id": "niq-monthly",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "title": "Monthly Award and Monthly Global Award",
+      "organization": "NielsenIQ (NIQ)",
+      "year": null
+    },
+    {
+      "id": "thumbs-up",
+      "sourceRefs": [
+        "S2:p2"
+      ],
+      "title": "Thumbs Up Award 2026",
+      "organization": "NielsenIQ (NIQ)",
+      "year": 2026,
+      "principle": "Driven to Win"
+    },
+    {
+      "id": "aiq-paper",
+      "sourceRefs": [
+        "S1:p1"
+      ],
+      "title": "Best Paper Award",
+      "organization": "National Conference on Advancing Science and Innovation for Sustainability",
+      "year": null,
+      "work": "AiQ — The Ultimate Quiz Portal"
+    }
+  ]
+}
