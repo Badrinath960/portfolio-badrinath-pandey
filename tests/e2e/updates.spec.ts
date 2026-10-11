@@ -37,6 +37,7 @@ test("ProVision links, resume layout and print document", async ({ page }) => {
     ).toEqual([]);
   }
   await page.emulateMedia({ media: "print" });
+  await expect(page.locator("html")).toHaveCSS("color-scheme", "light");
   await expect(page.locator(".resume-toolbar")).toBeHidden();
   await expect(page.locator(".header")).toBeHidden();
   await page.pdf({

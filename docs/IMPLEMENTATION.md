@@ -8,7 +8,7 @@
 - Root-only `suppressHydrationWarning` tolerates the browser-injected `hydrated` class shown in the owner's screenshot. No application script sets that class; content hydration remains checked. A regression test injects the class into the document response before React starts.
 - Static GitHub Pages export uses a repository base path, production canonical/sitemap/social image and `.nojekyll`. Document links avoid Next's RSC segment prefetch requests, which were not available at their requested paths on the plain static preview server. Two-page navigation remains reliable without host rewrites.
 - The public repository builds from the reviewed, schema-validated public snapshot. Original source documents and editorial packages are Git-ignored. The absent case-study route has a reusable template; an empty static parameter list is unsupported by this exporter.
-- The user subsequently authorized Pages deployment. The workflow verifies and deploys `main` pushes; PR builds cannot deploy. Existing repository visibility is preserved.
+- The user subsequently authorized Pages deployment. The workflow verifies and deploys `main` pushes; PR builds cannot deploy. GitHub rejected Pages on the private repository under the current plan; after explicit owner approval, the repository was made public and Pages configured to use Actions. No plan upgrade or paid service was activated.
 
 The original implementation notes and measurements below describe the first release; the update QA is recorded separately in `QA_REPORT.md`.
 

@@ -2455,7 +2455,7 @@ html[data-motion="reduced"] *:after {
   body {
     background: white !important;
     color: #192d35;
-    color-scheme: light;
+    color-scheme: light !important;
   }
   .resume-shell {
     padding: 0;
